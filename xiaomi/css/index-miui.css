@@ -1,0 +1,158 @@
+.header_on {
+  background: #000;
+  height: 49px;
+}
+.header_on .header {
+  position: relative;
+}
+.header_on .header .logo {
+  position: absolute;
+  left: 0px;
+  top: 16px;
+}
+.header_on .header .logo a {
+  display: block;
+  width: 46px;
+  height: 17px;
+  background: url("../img-miui/index_0.png") no-repeat;
+}
+.header_on .header .nav {
+  position: absolute;
+  right: 0px;
+  top: 16px;
+}
+.header_on .header .nav ul li {
+  float: left;
+}
+.header_on .header .nav ul li a {
+  color: #dddddd;
+  margin-left: 30px;
+  font-size: 14px;
+}
+.header_on .header .nav ul li a:hover {
+  color: #868686;
+}
+.header_on .header .nav ul li .active {
+  color: #868686;
+}
+/*头部结束，轮播图开始*/
+.bg {
+  height: 657px;
+  position: relative;
+  overflow: hidden;
+}
+.bg .bg-img {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -1607px;
+}
+.bg .bg-img li a {
+  width: 3214px;
+  height: 657px;
+  display: block;
+}
+.bg .bg-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -18px;
+}
+.bg .bg-btn li {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #cecece;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 6px;
+}
+.bg .bg-btn .active {
+  background: #b2b2b2;
+}
+.footer_on {
+  padding: 55px 0px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fafafa;
+}
+.footer_on ul li {
+  box-sizing: border-box;
+  border-left: 1px solid #e0e0e0;
+  float: left;
+  width: 33.33%;
+}
+.footer_on ul li a {
+  display: block;
+  text-align: center;
+}
+.footer_on ul li a img {
+  margin-right: 24px;
+}
+.footer_on ul li a div {
+  display: inline-block;
+}
+.footer_on ul li a div h3 {
+  font-size: 20px;
+  color: #333333;
+  line-height: 28px;
+  text-align: left;
+}
+.footer_on ul li a div p {
+  text-align: left;
+  font-size: 14px;
+  color: #939393;
+  line-height: 28px;
+}
+.footer_on ul li a:hover h3,
+.footer_on ul li a:hover p {
+  color: #ff6700;
+}
+.footer_on ul .first {
+  border: 0px;
+  margin-left: 0;
+}
+.footer_up {
+  background: #fafafa;
+  height: 160px;
+}
+.footer_up div {
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer_up div ul {
+  margin-bottom: 15px;
+}
+.footer_up div ul li {
+  display: inline-block;
+  width: 110px;
+}
+.footer_up div ul li a {
+  color: #858585;
+  font-size: 14px;
+}
+.footer_up div ul li a:hover {
+  color: #f78200;
+  text-decoration: underline;
+}
+.footer_up div ul .wx {
+  position: relative;
+}
+.footer_up div ul .wx .ewm {
+  display: none;
+  position: absolute;
+  left: -15px;
+  top: -150px;
+  background: url("../img-miui/index_89.png") no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+}
+.footer_up div ul .wx:hover .ewm {
+  display: block;
+}
+.footer_up div p {
+  line-height: 20px;
+  color: #c5c6c8;
+  font-size: 11px;
+}

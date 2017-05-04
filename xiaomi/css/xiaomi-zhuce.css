@@ -1,0 +1,141 @@
+.layout {
+  background: #ffffff;
+  width: 854px;
+  margin: 0 auto;
+  height: 512px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.layout .external_logo_area {
+  padding-bottom: 40px;
+}
+.layout .external_logo_area .milogo {
+  background: url("../img-login/milogo.png") no-repeat;
+  width: 49px;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  cursor: default;
+}
+.layout h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #333;
+  line-height: 45px;
+  text-align: center;
+}
+.layout .regbox {
+  margin: 0 auto;
+  color: #666;
+  width: 332px;
+  padding: 30px 0;
+  line-height: 20px;
+}
+.layout .regbox .listwrap {
+  margin-bottom: 15px;
+  position: relative;
+  height: 40px;
+  padding-left: 14px;
+  line-height: 40px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer;
+}
+.layout .regbox .listwrap p {
+  float: left;
+  width: 275px;
+  border-right: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+.layout .regbox .listwrap .icon_cirarr {
+  float: right;
+  background: url("../img-login/icon_user.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 11px 12px 0 12px;
+}
+.layout .regbox .phone {
+  margin-bottom: 15px;
+}
+.layout .regbox .phone .lable-box {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+}
+.layout .regbox .phone .lable-box input {
+  width: 310px;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+}
+.layout .regbox .inputcode {
+  margin-bottom: 15px;
+}
+.layout .regbox .inputcode .err_label {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+.layout .regbox .inputcode .err_label input {
+  width: 170px;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+  color: #333;
+}
+.layout .regbox .inputcode .err_label img {
+  margin-left: 7px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.layout .regbox .fixed_bot {
+  margin-top: 20px;
+}
+.layout .regbox .fixed_bot input {
+  background-color: #ff6700;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  color: #fff;
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+}
+.layout .regbox .fixed_bot .msg {
+  margin-top: 10px;
+  color: #9d9d9d;
+}
+.layout .regbox .fixed_bot .msg a {
+  color: #333;
+  font-weight: bold;
+}
+.n-footer {
+  text-align: center ;
+  margin-top: 20px;
+}
+.n-footer .nf-link ul li {
+  display: inline-block;
+}
+.n-footer .nf-link ul li a {
+  color: #757575;
+  padding: 0 10px;
+  display: inline-block;
+}
+.n-footer .nf-link ul li .active {
+  color: #333;
+}
+.n-footer .nf-intro {
+  padding: 10px;
+  color: #9d9d9d;
+}
